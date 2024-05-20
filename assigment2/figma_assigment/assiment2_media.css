@@ -1,0 +1,1035 @@
+@media (max-width: 431px) {
+
+
+    label {
+        display: block;
+        position: absolute;
+        /* margin-top: 50px; */
+        margin-left: 80px;
+    }
+
+    .screenshots {
+        margin-left: 60px;
+    }
+
+    .grid {
+        width: 100%;
+    }
+
+    .survey {
+        width: 372px;
+        height: 128px;
+        font-size: 10px;
+        margin: 0px 0px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+    }
+
+    .itemgrid {
+        margin: 10px 50px;
+    }
+
+    .survey1 h1 {
+        position: relative;
+        font-size: 17px;
+        /* text-align: center; */
+        right: 50px;
+        /* top: 25px; */
+    }
+
+    .data1 {
+        width: 100%;
+    }
+
+    .googleplay h1 {
+        font-size: 20px;
+    }
+
+    .iphone {
+        display: none;
+    }
+
+    .screenshots {
+        margin-right: 55px;
+        gap: 1px;
+    }
+
+    .background .graph1 {
+        background-image: url(./img/g.png);
+        background-size: contain;
+        width: 300px;
+        height: 400px;
+        background-repeat: no-repeat;
+    }
+
+    .googleplay {
+        width: 120%;
+    }
+
+    .footer {
+        width: 120%;
+    }
+}
+
+@media (max-width: 576px) {
+    .link {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .save {
+        display: none;
+    }
+
+    .get {
+        border-radius: 15px;
+    }
+
+
+    #check1 {
+        display: block;
+        opacity: 0;
+        height: 20px;
+        width: 20px;
+        position: relative;
+        left: 210px;
+        top: 40px;
+        z-index: 1;
+    }
+
+    .googleplay {
+        margin-left: 0px;
+        /* width: 100%; */
+        /* height: 275px; */
+        border-radius: 16px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+        text-align: center;
+        /* display: none; */
+    }
+
+    /* .final8{display: none;} */
+    .b1 {
+        margin-left: 0px;
+    }
+
+    .contant2 img {
+        width: 100%;
+    }
+
+    .fourthcontainer {
+        flex-direction: column;
+        text-align: center;
+        gap: 0px;
+    }
+
+    .iphone {
+        gap: 5px;
+
+        margin-left: 100px;
+        margin-top: 50px;
+
+    }
+
+    #dots {
+        display: block;
+        position: relative;
+        margin-top: 50px;
+        margin-left: 250px;
+    }
+
+    #check1:checked~.link {
+
+        display: block;
+        z-index: 1;
+        background-color: black;
+        /* border-radius: 10px; */
+        position: absolute;
+        top: 90px;
+        width: 100vw;
+
+    }
+
+    .link {
+        display: none;
+        padding-left: 0px;
+        gap: 0px;
+        font-size: 16px;
+        line-height: 16px;
+        color: white;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    a {
+        display: flex;
+        gap: 25px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .get {
+
+        position: static;
+        width: 160px;
+        height: 21px;
+        border-radius: 11px;
+        background-color: #f2f9eb;
+        font-size: 13px;
+        line-height: 13px;
+        color: #35414b;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    .manage {
+        /* margin-left: 30px; */
+        width: 100%;
+        height: 120px;
+        font-size: 32px;
+        line-height: 40px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+    @keyframes heading {
+        from {
+            left: 1000px;
+            opacity: 0;
+
+        }
+
+        to {
+
+            left: 0px;
+        }
+
+
+    }
+
+    .manage+p {
+        /* margin-left: 100px; */
+        /* height: 72px; */
+        font-size: 16px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    #try {
+        margin-top: 5px;
+        width: 318px;
+        height: 52px;
+        border-radius: 4px;
+        /* background-color: #794cff; */
+        border: 1px solid #794cff;
+    }
+
+    #try~button {
+        margin-top: 0px;
+        width: 318px;
+        font-size: 16px;
+        line-height: 16px;
+        color: white;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    .wholebutton {
+        width: 100vw;
+        /* margin-left: 120px; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .graph1 {
+        background-image: url(./img/g.png);
+        background-size: contain;
+        width: 500px;
+        height: 400px;
+        background-repeat: no-repeat;
+
+    }
+
+    .h3 {
+        width: 318px;
+        height: 11px;
+        font-size: 11px;
+        line-height: 11px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+
+    .screenshots {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        gap: 10px;
+    }
+
+    .secondcontainer {
+        display: block;
+        background-color: #fbfafe;
+        border: 1px solid #dedae6;
+    }
+
+    .group img {
+        /* position: absolute; */
+        margin: 0px 0px;
+        width: 100%;
+    }
+
+    .survey {
+        font-size: 18px;
+        line-height: 18px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+    .survey p {
+        /* width: 308px; */
+        height: 48px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+    .littlebar {
+        /* width: px; */
+        height: 8px;
+        background-color: #794cff;
+    }
+
+    .survey1 {
+        font-size: 15px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        position: relative;
+        right: 10px;
+        width: 100%;
+        height: 128px;
+        border-radius: 8px;
+        background-color: #f6f3fc;
+    }
+
+    .survey1 h1 {
+        position: relative;
+        left: 20px;
+    }
+
+    .survey1 p {
+        position: relative;
+
+        width: 360px;
+        height: 48px;
+        font-size: 19px;
+        line-height: 24px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    hr {
+
+        height: 0px;
+        background-color: #000000;
+        border: 1.0000000000000038px solid #f0ebfa;
+    }
+
+    .team {
+        font-size: 18px;
+
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+    }
+
+
+    .box3 {
+        width: 100%;
+        margin: 10px 100px;
+    }
+
+
+
+    .survey {
+        width: 372px;
+        height: 128px;
+        font-size: 10px;
+        margin: 10px 30px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+    }
+
+    .survey p {
+        width: 100%;
+        height: 48px;
+        font-size: 16px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    .littlebar {
+        margin-top: 120px;
+        width: 100%;
+    }
+
+    .itemgrid img {
+        margin-left: 75px;
+    }
+
+    .box3 {
+        /* position: static; */
+        justify-content: center;
+        width: 100%;
+        margin: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .survey1 {
+        font-size: 15px;
+
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+
+        position: relative;
+        text-align: center;
+        width: 100%;
+        /* height: 128px; */
+        border-radius: 8px;
+        background-color: #f6f3fc;
+    }
+
+    .survey1 h1 {
+        position: relative;
+        font-size: 17px;
+        text-align: center;
+        left: 200px;
+        top: 25px;
+    }
+
+    .survey1 p {
+        position: absolute;
+        top: 50px;
+        /* left: 20px; */
+        width: 100%;
+        /* height: 48px; */
+        font-size: 13px;
+        /* line-height: 24px; */
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+        text-align: center;
+        left: 0;
+    }
+
+    hr {
+        width: 100%;
+        height: 0px;
+        background-color: #000000;
+        border: 1.0000000000000038px solid #f0ebfa;
+    }
+
+    .sice {
+        width: 0;
+    }
+
+    .hi {
+        display: block;
+    }
+
+    .grid {
+        flex-wrap: wrap;
+    }
+
+
+
+
+    .team {
+        font-size: 8px;
+        /* text-align: center; */
+
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        width: 150px;
+    }
+
+    .grid {
+        display: grid;
+        justify-content: start;
+        /* margin-right: 50px; */
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .thirdcontainer h1 {
+
+        margin: 80px;
+        font-size: 40px;
+        line-height: 40px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+    .finalgrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        text-align: center;
+        gap: 15px;
+    }
+
+    .b2 {
+        display: none;
+    }
+
+    #photo1 {
+        display: none;
+    }
+
+    .fifthcontainer {
+        height: 700px;
+    }
+
+    .footer {
+        padding-bottom: 100px;
+    }
+}
+
+@media (min-width: 578px) and (max-width: 1000px) {
+    .link {
+        display: none;
+    }
+
+    .login {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .save {
+        display: none;
+    }
+
+    .get {
+        border-radius: 15px;
+    }
+
+
+    #check1 {
+        display: block;
+        opacity: 0;
+        height: 20px;
+        width: 20px;
+        position: relative;
+        left: 210px;
+        top: 40px;
+        z-index: 1;
+    }
+
+    .googleplay {
+        margin-left: 0px;
+        width: 100%;
+        /* height: 275px; */
+        border-radius: 16px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+        text-align: center;
+        /* display: none; */
+    }
+
+    /* .final8{display: none;} */
+    .b1 {
+        margin-left: 0px;
+    }
+
+    .contant2 img {
+        width: 100%;
+    }
+
+    .fourthcontainer {
+        flex-direction: column;
+        text-align: center;
+        gap: 0px;
+    }
+
+    .iphone {
+        gap: 5px;
+
+        margin-left: 100px;
+        margin-top: 50px;
+
+    }
+
+    #dots {
+        display: block;
+        position: relative;
+        margin-top: 50px;
+        margin-left: 250px;
+    }
+
+    #check1:checked~.link {
+
+        display: block;
+        z-index: 1;
+        background-color: black;
+        /* border-radius: 10px; */
+        position: absolute;
+        top: 90px;
+        width: 100vw;
+
+    }
+
+    .link {
+        display: none;
+        padding-left: 0px;
+        gap: 0px;
+        font-size: 16px;
+        line-height: 16px;
+        color: white;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    a {
+        display: flex;
+        gap: 25px;
+        color: white;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .get {
+
+        position: static;
+        width: 160px;
+        height: 21px;
+        border-radius: 11px;
+        background-color: #f2f9eb;
+        font-size: 13px;
+        line-height: 13px;
+        color: #35414b;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    .manage {
+        /* margin-left: 30px; */
+        width: 100%;
+        height: 120px;
+        font-size: 32px;
+        line-height: 40px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+    @keyframes heading {
+        from {
+            left: 1000px;
+            opacity: 0;
+
+        }
+
+        to {
+
+            left: 0px;
+        }
+
+
+    }
+
+    .manage+p {
+        /* margin-left: 100px; */
+        /* height: 72px; */
+        font-size: 16px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    #try {
+        margin-top: 5px;
+        width: 318px;
+        height: 52px;
+        border-radius: 4px;
+        /* background-color: #794cff; */
+        border: 1px solid #794cff;
+    }
+
+    #try~button {
+        margin-top: 0px;
+        width: 318px;
+        font-size: 16px;
+        line-height: 16px;
+        color: white;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    .wholebutton {
+        width: 100vw;
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .graph1 {
+        background-image: url(./img/g.png);
+        background-size: contain;
+        width: 500px;
+        height: 400px;
+        background-repeat: no-repeat;
+
+    }
+
+    .h3 {
+        width: 318px;
+        height: 11px;
+        font-size: 11px;
+        line-height: 11px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+
+    .screenshots {
+        margin-top: 30px;
+        display: flex;
+        justify-content: center;
+        /* align-items: center; */
+        gap: 10px;
+    }
+
+    .secondcontainer {
+        display: block;
+        background-color: #fbfafe;
+        border: 1px solid #dedae6;
+    }
+
+    .group img {
+
+        margin: 0px 0px;
+        width: 100%;
+    }
+
+    .survey {
+        font-size: 18px;
+        line-height: 18px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+    .survey p {
+        /* width: 308px; */
+        height: 48px;
+        font-size: 16px;
+        line-height: 24px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+    .littlebar {
+        /* width: px; */
+        height: 8px;
+        background-color: #794cff;
+    }
+
+    .survey1 {
+        font-size: 15px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        position: relative;
+        right: 10px;
+        width: 100%;
+        height: 128px;
+        border-radius: 8px;
+        background-color: #f6f3fc;
+    }
+
+    .survey1 h1 {
+        position: relative;
+        left: 20px;
+    }
+
+    .survey1 p {
+        position: relative;
+
+        width: 360px;
+        height: 48px;
+        font-size: 19px;
+        line-height: 24px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    hr {
+
+        height: 0px;
+        background-color: #000000;
+        border: 1.0000000000000038px solid #f0ebfa;
+    }
+
+    .team {
+        font-size: 18px;
+
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+    }
+
+
+    .box3 {
+        width: 100%;
+        margin: 10px 100px;
+    }
+
+
+
+    .survey {
+        width: 372px;
+        height: 128px;
+        font-size: 10px;
+        margin: 10px 30px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+    }
+
+    .survey p {
+        width: 100%;
+        height: 48px;
+        font-size: 16px;
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+    }
+
+    .littlebar {
+        margin-top: 120px;
+        width: 100%;
+    }
+
+    .itemgrid img {
+        margin-left: 75px;
+    }
+
+    .box3 {
+        /* position: static; */
+        justify-content: center;
+        width: 100%;
+        margin: 50px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .survey1 {
+        font-size: 15px;
+
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+
+        position: relative;
+        text-align: center;
+        width: 100%;
+        /* height: 128px; */
+        border-radius: 8px;
+        background-color: #f6f3fc;
+    }
+
+    .survey1 h1 {
+        position: relative;
+        font-size: 17px;
+        text-align: center;
+        left: 200px;
+        top: 25px;
+    }
+
+    .survey1 p {
+        position: absolute;
+        top: 50px;
+        /* left: 20px; */
+        width: 100%;
+        /* height: 48px; */
+        font-size: 13px;
+        /* line-height: 24px; */
+        color: #4e5a65;
+        font-weight: 400;
+        font-family: "Inter";
+        text-align: center;
+        left: 0;
+    }
+
+    hr {
+        width: 100%;
+        height: 0px;
+        background-color: #000000;
+        border: 1.0000000000000038px solid #f0ebfa;
+    }
+
+    .sice {
+        width: 0;
+    }
+
+    .hi {
+        display: block;
+    }
+
+    .grid {
+        flex-wrap: wrap;
+    }
+
+
+
+
+    .team {
+        font-size: 8px;
+        /* text-align: center; */
+
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        width: 150px;
+    }
+
+    .grid {
+        display: grid;
+        justify-content: start;
+        /* margin-right: 50px; */
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+    }
+
+    .thirdcontainer h1 {
+
+        margin: 80px;
+        font-size: 40px;
+        line-height: 40px;
+        color: #35414b;
+        font-weight: 600;
+        font-family: "Inter";
+        text-align: center;
+    }
+
+    .finalgrid {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
+        text-align: center;
+        gap: 15px;
+    }
+
+    .b2 {
+        display: none;
+    }
+
+    #photo1 {
+        display: none;
+    }
+
+    .fifthcontainer {
+        height: 700px;
+    }
+
+    .footer {
+        padding-bottom: 100px;
+    }
+
+    label {
+        position: absolute;
+        right: 50px;
+    }
+
+
+
+    .iphone {
+        display: none;
+    }
+
+    .googleplay {
+        height: 276px;
+    }
+
+    .since {
+        width: 100%;
+    }
+
+    .itemgrid {
+        margin: 30px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .survey1 {
+        display: flex;
+        /* align-items: center; */
+        justify-content: center;
+    }
+
+    .survey1 h1 {
+        left: 0px;
+        top: 10px;
+    }
+}

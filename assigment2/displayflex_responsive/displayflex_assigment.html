@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            .good {
+                width: 100%;
+                display: flex;
+                margin-top: 50px;
+                margin-bottom: 50px;
+                justify-content: center;
+            }
+
+            .main {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-template-rows: repeat(2, 1fr);
+                gap: 25px;
+            }
+
+            .container {
+                background-color: antiquewhite;
+                /* height: 250px; */
+                border: 2px solid black;
+                width: 300px;
+            }
+
+            img {
+                width: 100%;
+                height: 50%;
+            }
+
+            p {
+                padding: 20px;
+            }
+
+            .button {
+                display: flex;
+                text-align: center;
+                margin-left: 15px;
+                margin-bottom: 15px;
+            }
+
+            .View {
+                height: 22px;
+                width: 50px;
+                border: 1px solid black;
+            }
+
+            @media (max-width: 768px) {
+                .main {
+                    display: flex;
+                    flex-direction: column;
+                }
+            }
+
+            @media (min-width: 769px) and (max-width: 1000px) {
+                .main {
+                    display: grid;
+                    grid-template-columns: repeat(2, 1fr);
+                    grid-template-rows: repeat(3, 1fr);
+                }
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="good">
+            <div class="main">
+                <div class="container">
+                    <img src="./images/Screen.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam. </p>
+                    <div class="button">
+                        <div class="View">View</div>
+                        <div class="View">Edit</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="./images/Screen.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam.</p>
+                    <div class="button">
+                        <div class="View">View</div>
+                        <div class="View">Edit</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="./images/Screen.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam.</p>
+                    <div class="button">
+                        <div class="View">View</div>
+                        <div class="View">Edit</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="./images/Screen.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam.</p>
+                    <div class="button">
+                        <div class="View">View</div>
+                        <div class="View">Edit</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="./images/Screen.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam.</p>
+                    <div class="button">
+                        <div class="View">View</div>
+                        <div class="View">Edit</div>
+                    </div>
+                </div>
+                <div class="container">
+                    <img src="./images/Screen.png" alt="">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam.</p>
+                    <div class="button">
+                        <div class="View">View</div>
+                        <div class="View">Edit</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </body>
+
+    </html>
+</body>
+
+</html>
